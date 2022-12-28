@@ -1,0 +1,27 @@
+
+[16,21,11,8,12,22] -> Merge Sort Aşamaları
+
+16,21,11 / 8,12,22 ikiye ayrılır
+
+16,21 - 11 / 8 - 12,22 tekrar kendi içinde ikiye ayrılır
+
+16 ile 11 i kıyaslar 11 i alır -----11
+16 ile 21 i kıyaslar 16 yı alır -----11,16
+geriye kalan 21 i sona ekler -----11,16,21
+
+8 ile 12 yi kıyaslar 8 i alır -----8
+12 ile 22 yi kıyaslar 12 yi alır -----8,12
+geriye kalan 22 yi sona ekler -----8,12,22
+
+oluşan iki grubu birbiriyle kıyaslamaya başlar  (11,16,21 ve 8,12,22)
+
+11 ile 8 kıyaslar 8 i alır -----8
+11 ile 12 kıyaslar 11 i alır -----8,11
+12 ile 16 kıyaslar 12 i alır -----8,11,12
+16 ile 22 kıyaslar 16 i alır -----8,11,12,16
+22 ile 21 kıyaslar 21 i alır -----8,11,12,16,21
+Geriye kalan 22 yi sona ekler
+
+8,11,12,16,21,22
+
+O(nlogn)
