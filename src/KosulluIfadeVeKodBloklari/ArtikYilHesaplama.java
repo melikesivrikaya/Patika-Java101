@@ -6,16 +6,16 @@ public class ArtikYilHesaplama {
             System.out.print("Yıl giriniz : ");
             int year=sca.nextInt();
             if(year % 100 == 0 ){
-                if(year%400==0){
-                    System.out.println(year+" Artık Yıl");
+                if(year % 400 == 0){
+                    System.out.println(year + " Artık Yıl");
                 }
                 else{
-                    System.out.println(year+" Artık Yıl Değil");
+                    System.out.println(year + " Artık Yıl Değil");
                 }
             }
             else{
-                if(year%4==0){
-                    System.out.println(year+" Artık Yıl");
+                if(year % 4 == 0){
+                    System.out.println(year + " Artık Yıl");
                 }
                 else {
                     System.out.println(year +" Artık Yıl Değil.");

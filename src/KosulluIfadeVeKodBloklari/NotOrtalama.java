@@ -16,7 +16,7 @@ public class NotOrtalama {
         uygunmu(sca.nextInt());
         System.out.print("Müzik ders notunuz : ");
         uygunmu(sca.nextInt());
-            if((toplam/ders_sayi)>55){
+            if((toplam/ders_sayi) > 55){
                 System.out.println("Geçtiniz");
             }
             else{
@@ -25,9 +25,9 @@ public class NotOrtalama {
         }
     }
     public static void uygunmu(int not){
-        if(not>=0 && not<=100){
+        if(not >= 0 && not <= 100){
             ders_sayi++;
-            toplam+=not;
+            toplam += not;
         }
         
     }

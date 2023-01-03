@@ -15,21 +15,21 @@ public class UcakBiletiHesapla {
             }
             else{
                 
-                km*=0.10;
-                if(age<12){
-                    km-=km/100*50;
+                km *= 0.10;
+                if(age < 12){
+                    km -= km / 100 * 50;
                 }
-                else if(age<24){
-                    km-=km/100*10;
+                else if(age < 24){
+                    km -= km / 100 * 10;
                 }
-                else if(age>64){
-                    km-=km/100*30;
+                else if(age > 64){
+                    km -= km / 100 * 30;
                 }
-                if(tip==2){
-                    km-=km/100*20;
+                if(tip == 2){
+                    km -= km / 100 * 20;
                     
                 }
-                System.out.println("Ödenecek tutar : "+km*2);
+                System.out.println("Ödenecek tutar : " + km * 2);
             }
         }
 
